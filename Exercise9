@@ -1,0 +1,14 @@
+# 1. Create a new PyCharm file in the same project called operations.py. 2. Typethefollowingcode:
+# var = input("Please enter a value: ")
+# This is an easy way of outputting a prompt to the console and getting a reply. The variable var is a reference to that reply, which is a string.
+# 3. Now print the following:
+# a) The value of var as upper case.
+# b) The number of characters in var (this does not require a method).
+# c) Doesitcontainnumericcharacters?(trytheisdecimal()method).
+#
+
+var = input("Please enter a value: ")
+
+print(var.upper())
+print(len(var))
+print(var.isdecimal())
